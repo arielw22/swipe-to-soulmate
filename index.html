@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Swipe to Soulmate</title>
+  <style>
+    :root {
+      --primary-color: #f48fb1;
+      --header-text: #1a1a1a;
+      --background: #fff8f0;
+      --text-color: #222;
+    }
+
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: var(--background);
+      color: var(--text-color);
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: var(--primary-color);
+      text-align: center;
+      padding: 1.5rem;
+    }
+
+    header h1 {
+      color: var(--header-text);
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      color: #444;
+      font-size: 1rem;
+    }
+
+    section {
+      max-width: 850px;
+      margin: auto;
+      padding: 2rem;
+      background-color: #ffffff;
+    }
+
+    h2 {
+      color: var(--header-text);
+      font-size: 1.8rem;
+      font-weight: 700;
+      border-bottom: 2px solid var(--primary-color);
+      padding-bottom: 0.3rem;
+      margin-top: 2.5rem;
+    }
+
+    h3 {
+      color: var(--header-text);
+      font-size: 1.3rem;
+      margin-top: 2rem;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    .section-intro {
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    .responsive-embed {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      margin: 1.5rem 0;
+    }
+
+    .responsive-embed iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+      border-radius: 10px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 1.5rem auto;
+      border-radius: 10px;
+      border: 2px solid var(--primary-color);
+    }
+
+    .intro-image {
+      width: 70%;
+      max-width: 500px;
+    }
+
+    footer {
+      background-color: var(--primary-color);
+      color: var(--header-text);
+      text-align: center;
+      padding: 1.2rem;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Swipe to Soulmate: What Drives Real Connection</h1>
+    <p>Exploring the impact of intent and experience on dating app success</p>
+  </header>
+
+  <section>
+    <img class="intro-image" src="https://slavic-girl.com/files/Image/pages/dating-in-nyc.jpg" alt="Dating in NYC" />
+    
+    <h2>Hypothesis</h2>
+    <p class="section-intro">Users who express clear intent in their profiles and receive highly rated app experiences are more likely to report long-term dating success.</p>
+
+    <h2>Context</h2>
+    <p class="section-intro">In a world where dating apps have become a primary way people connect, I was curious about what actually drives success beyond the swipe. Are matches random, or are there underlying patterns that shape deeper outcomes? I chose this topic to explore how intent, user behavior, and app experience intersect to influence real romantic connections. With dating app usage at an all-time high—especially among Gen Z—I wanted to unpack whether people who use these platforms with purpose and consistency are more likely to find lasting results. By combining design thinking, data visualization, and social insight, this project gave me the chance to decode the hidden dynamics behind modern love.</p>
+
+    <h2>Visualizations & Insights</h2>
+
+    <h3>Language Patterns in Positive User Feedback</h3>
+    <div class="responsive-embed">
+      <iframe src="https://public.flourish.studio/visualisation/22792905/embed" loading="lazy"></iframe>
+    </div>
+    <p>High-frequency terms like "dating," "meet," "match," "real," and "conversation" suggest users are having positive social interactions, not just swiping aimlessly. This supports the hypothesis that intent and good app experiences correlate with success.</p>
+    <p>Positive adjectives like "easy," "awesome," "cool," "fun," and "quality" imply strong user satisfaction, aligning with the second part of the hypothesis.</p>
+    <p>Mentions of "Tinder" and "Bumble" suggest users compare Hinge favorably to competitors, indicating critical reflection on app experiences.</p>
+
+    <h3>Engagement Trends Based on Declared Relationship Intent</h3>
+    <div class="responsive-embed">
+      <iframe src="https://public.flourish.studio/visualisation/23035212/embed" loading="lazy"></iframe>
+    </div>
+    <p>Using “Kisses Received” as a proxy for engagement and “Looking for Relationship” as a proxy for intent, this box plot reveals a clear trend: users who declare relationship intent tend to receive more engagement. The visual supports the hypothesis by quantifying the link between clear user goals and improved dating outcomes.</p>
+
+    <h3>Attribute Correlations Driving Match Success</h3>
+    <img 
+  src="https://raw.githubusercontent.com/arielw22/Information-Visualization-/refs/heads/main/1.png" 
+  alt="Correlation heatmap showing relationships between user attributes like gender, VIP status, and matches"
+  style="width: 60%; max-width: 450px; display: block; margin: 1.5rem auto; border-radius: 10px; border: 2px solid var(--primary-color);" />
+    <p>Gender strongly correlates with matches (0.80), suggesting substantial differences between male and female experiences.</p>
+    <p>PurchasedVIP status (0.34) and attractiveness (0.31) moderately correlate with more matches, highlighting the role of enhanced experiences and personal traits in success.</p>
+
+    <h3>Behavioral Flows by Intent and Gender</h3>
+    <div class="responsive-embed">
+      <iframe src="https://public.flourish.studio/visualisation/22955599/embed" loading="lazy"></iframe>
+    </div>
+    <p>This Sankey diagram illustrates the behavioral flow from dating intent to app usage and swiping activity. Users seeking long-term relationships or marriage are more likely to engage with the app daily and show higher swiping activity — suggesting greater consistency and commitment. In contrast, users looking for casual dating or friendship show more varied usage patterns, often tied to lower engagement.</p>
+    <p>Clear romantic intent, paired with frequent app usage, appears to drive deeper interaction — aligning with the hypothesis that purpose-driven users are more likely to succeed.</p>
+
+    <h2>Synthesis</h2>
+    <p>Across all visualizations, a consistent insight emerges: users who engage with dating apps intentionally and consistently are more likely to experience meaningful outcomes. The word cloud reveals language centered on genuine connection, while the box plot quantifies how relationship-seeking users receive more engagement. The correlation heatmap emphasizes how factors like gender, attractiveness, and VIP status affect visibility and success. Most notably, the Sankey diagram offers a behavioral flow—showing how users with clear romantic intent and daily engagement are significantly more active and successful. Together, these visuals validate the hypothesis: purposeful behavior and positive experiences drive deeper romantic outcomes on dating platforms.</p>
+
+    <h2>Reflection</h2>
+    <p>This project reshaped how I think about dating apps—not as chaotic swiping platforms, but as structured systems influenced by human intention and behavioral patterns. Working with diverse datasets challenged me to move beyond assumptions and use data to uncover emotional and cultural truths. The Sankey diagram, in particular, helped me visualize how personal choices ripple across an app’s ecosystem. I also gained a deeper appreciation for the power of design in storytelling—how layout, interactivity, and visual coherence can transform raw information into insight. Ultimately, I walked away with a richer understanding of modern connection: it's not luck, it's alignment—between intent, engagement, and experience.</p>
+  </section>
+
+  <footer>
+    <p>Made with 💖 by Shihua Wang | Strategic Design & Data Storytelling</p>
+  </footer>
+
+</body>
+</html>
