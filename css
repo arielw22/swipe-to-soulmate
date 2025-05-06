@@ -1,0 +1,39 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #fce4ec;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f06292;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+iframe {
+  width: 100%;
+  height: 500px;
+  border: none;
+  margin-top: 1rem;
+}
+
+h2 {
+  color: #c2185b;
+  margin-top: 2.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f8bbd0;
+  margin-top: 3rem;
+}
